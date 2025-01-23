@@ -1,14 +1,17 @@
 # Table of contents
 
-## Home
-
 * [Hi 👋](README.md)
+  * [About Me](hi/about-me.md)
 
-## AI-ML
+## Notes
 
-* [NeurIPS 2024 - reading list (beginner)](<README (1).md>)
+* [Staff Engineer's Path](notes/staff-engineers-path.md)
+* [Good to Great - Jim Collins](notes/good-to-great-jim-collins.md)
 
-## Books
+***
 
-* [Good to Great - Jim Collins](books/good-to-great-jim-collins.md)
-* [Staff Engineer's Path](books/staff-engineers-path.md)
+* [German](german.md)
+
+## german
+
+* [Wo Wohin Woher](german-1/wo-wohin-woher.md)

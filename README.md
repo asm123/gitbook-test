@@ -1,6 +1,9 @@
 ---
-description: Hi there!  I am Asmita and this is my little corner on the Internet.
+description: Welcome to my personal wiki!
 ---
 
 # Hi 👋
 
+Hi there!
+
+Somehow you have landed on my personal wiki! Find out more about me [here](hi/about-me.md)!
