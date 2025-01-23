@@ -1,8 +1,12 @@
 # Table of contents
 
+## Welcome!
+
+* [Hi 👋](README.md)
+
 ## AI-ML
 
-* [NeurIPS 2024 - reading list (beginner)](README.md)
+* [NeurIPS 2024 - reading list (beginner)](<README (1).md>)
 
 ## Books
 
