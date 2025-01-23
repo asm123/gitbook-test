@@ -1,6 +1,6 @@
 # Table of contents
 
-## Welcome!
+## Home
 
 * [Hi 👋](README.md)
 
