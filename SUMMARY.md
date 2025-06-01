@@ -22,3 +22,16 @@
 
 * [Some personal websites for inspiration](misc/some-personal-websites-for-inspiration.md)
 * [Favorite cooking recipes](misc/favorite-cooking-recipes.md)
+
+## Leadership
+
+* [Career Nuggets](leadership/career-nuggets.md)
+
+***
+
+* [Mastering Difficult Conversations](mastering-difficult-conversations.md)
+* [Amazon Leadership Principles](amazon-leadership-principles.md)
+
+## Neuroscience
+
+* [The Unbearable Slowness of Being](neuroscience/the-unbearable-slowness-of-being.md)
