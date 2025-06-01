@@ -38,3 +38,27 @@
 ## Neuroscience
 
 * [The Unbearable Slowness of Being](neuroscience/the-unbearable-slowness-of-being.md)
+
+## Programming
+
+* [Bash: Check if argument exists](programming/bash-check-if-argument-exists.md)
+* [Bash: Current date and time](programming/bash-current-date-and-time.md)
+* [Bash: Which shell](programming/bash-which-shell.md)
+* [C++: iostream file not found](programming/c++-iostream-file-not-found.md)
+* [C++: Length of an array](programming/c++-length-of-an-array.md)
+* [How news websites update history on back button](programming/how-news-websites-update-history-on-back-button.md)
+* [C++: Template Metaprogramming](programming/c++-template-metaprogramming.md)
+* [Record in Java 16](programming/record-in-java-16.md)
+* [Staying productive during downtime](programming/staying-productive-during-downtime.md)
+
+***
+
+* [Open VSCode From Terminal](open-vscode-from-terminal.md)
+* [Ramping up on a new codebase](ramping-up-on-a-new-codebase.md)
+* [Rules of Debugging](rules-of-debugging.md)
+* [Run local HTTP server](run-local-http-server.md)
+
+## System Design
+
+* [JioCinema - IPL Live Streaming](system-design/jiocinema-ipl-live-streaming.md)
+* [Designing Data Intensive Applications](system-design/designing-data-intensive-applications.md)
