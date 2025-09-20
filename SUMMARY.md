@@ -50,5 +50,3 @@
   * [What Did Ada Lovelace's Program Actually Do?](linkblog/what-did-ada-lovelaces-program-actually-do.md)
 * [Misc](misc/README.md)
   * [Large number names](misc/large-number-names.md)
-* [German](german/README.md)
-  * [Wo Wohin Woher](german/wo-wohin-woher.md)
