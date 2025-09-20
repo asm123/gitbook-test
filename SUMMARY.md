@@ -32,6 +32,7 @@
   * [LoRA](ai-ml/lora.md)
   * [Linear Regression](ai-ml/linear-regression.md)
   * [Sensitivity and Specificity](ai-ml/sensitivity-and-specificity.md)
+  * [Logistic and Logit](ai-ml/logistic-and-logit.md)
 * [Leadership](leadership/README.md)
   * [Career Nuggets](leadership/career-nuggets.md)
   * [Mastering Difficult Conversations](leadership/mastering-difficult-conversations.md)
