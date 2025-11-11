@@ -33,6 +33,7 @@
   * [Linear Regression](ai-ml/linear-regression.md)
   * [Sensitivity and Specificity](ai-ml/sensitivity-and-specificity.md)
   * [Logistic and Logit](ai-ml/logistic-and-logit.md)
+  * [Book notes: AI Engineering by Chip Huyen](ai-ml/book-notes-ai-engineering-by-chip-huyen.md)
 * [Leadership](leadership/README.md)
   * [Career Nuggets](leadership/career-nuggets.md)
   * [Mastering Difficult Conversations](leadership/mastering-difficult-conversations.md)
