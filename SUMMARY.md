@@ -2,13 +2,11 @@
 
 * [Hi 👋](README.md)
 * [Book Notes](book-notes/README.md)
-  * [Library](book-notes/library.md)
   * [Staff Engineer's Path](book-notes/staff-engineers-path.md)
   * [Good to Great - Jim Collins](book-notes/good-to-great-jim-collins.md)
   * [Favorite Quotes](book-notes/favorite-quotes.md)
   * [Kohinoor: The Story of the World’s Most Infamous Diamond](book-notes/kohinoor-the-story-of-the-worlds-most-infamous-diamond.md)
   * [My Life in Full: Work, Family, and Our Future](book-notes/my-life-in-full-work-family-and-our-future.md)
-  * [Recommendations](book-notes/recommendations.md)
 * [Programming](programming/README.md)
   * [Bash: Check if argument exists](programming/bash-check-if-argument-exists.md)
   * [Bash: Current date and time](programming/bash-current-date-and-time.md)
