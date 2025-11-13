@@ -13,8 +13,6 @@
 
 The section opens with asking "Which is worse - an application that has never been deployed, or an application that is deployed but no one knows whether it's working?"
 
-
-
 Author recommends _evaluation-driven development_ = defining evaluation criteria before building.
 
 * Caveat: Focusing only on applications whose outcomes can be measured has risks of missing out on game-changing applications because there was no easy way to evaluate them.
@@ -28,9 +26,9 @@ Evaluation criteria:
 
 #### Domain-specific capability
 
-How good is the model at understanding the application domain.
+**How good is the model at understanding the application domain.**
 
-Constrained by the model configuration configuration such as model architecture and size, and training data.
+Constrained by the model configuration such as model architecture and size, and training data.
 
 Evaluated by **exact evaluation**.&#x20;
 
@@ -39,7 +37,7 @@ Evaluated by **exact evaluation**.&#x20;
 
 #### **Generation capability**
 
-Quality of open-ended outputs.
+**Quality of open-ended outputs.**
 
 Older measures: fluency, coherence - can be evaluated using AI as a judge / perplexity.
 
@@ -55,20 +53,16 @@ Older measures: fluency, coherence - can be evaluated using AI as a judge / perp
 * Evaluation as a classification task using specialized scorers for textual entailment: entailment, contradictory, neutral.
 * Benchmarks: [TruthfulQA](https://huggingface.co/datasets/domenicrosati/TruthfulQA) - 817 questions against 38 categories. GPT-judge finetuned for automatic evaluation.
 
-
-
 **Safety** - toxicity, biases, violence, stereotyping, inappropriate language, hate speech, harmful recommendations.
 
 * Models developed to detect human-generated unsafe content can be used for AI-generated unsafe content.
 * Benchmarks: [RealToxicityPrompts](https://huggingface.co/datasets/allenai/real-toxicity-prompts), [BOLD](https://huggingface.co/datasets/AmazonScience/bold)
 
-
-
 **Task-dependent:** faithfulness for translation, relevance for summary, controversiality, friendliness, creativity, etc.
 
 #### **Instruction-following capability**
 
-How good is the model at following given instructions.
+**How good is the model at following given instructions.**
 
 **Instruction-following criteria:**
 
@@ -120,7 +114,7 @@ Important: Be clear about what objectives you can and can't compromise on, must-
 
 
 
-#### Step 1: Filter by soft attributes
+#### Step 1: Filter by hard attributes
 
 To host a model yourself or use a commercial model API aka build or buy:
 
@@ -149,11 +143,8 @@ Benchmark selection:
 * Pick the latest benchmarks.
 * Evaluate the reliability of the benchmarks.
 * Strongly correlated benchmarks can exaggerate biases, you need only one if two benchmarks are strongly correlated.
-*   Evaluate your model on the benchmarks and rank -> private leaderboard.
-
-    * Weight the scores based on the importance of the benchmark to your application.
-
-
+* Evaluate your model on the benchmarks and rank -> private leaderboard.
+  * Weight the scores based on the importance of the benchmark to your application.
 
 Handling data contamination:
 
@@ -193,7 +184,7 @@ A reliable evaluation pipeline is necessary to differentiate good outcomes from 
     * How reliable is your eval pipeline?
     * How correlated are your metrics?
     * How much additional cost and latency does it incur?
-* Iterate and evolve the criteria, rubrics, sets and pipeline. Log all the changes.
+* Iterate and evolve the criteria, rubrics, sets and pipeline. Log all the deltas with corresponding results.
 
 
 
