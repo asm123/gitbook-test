@@ -4,7 +4,6 @@
 * [Book Notes](book-notes/README.md)
   * [Staff Engineer's Path](book-notes/staff-engineers-path.md)
   * [Good to Great - Jim Collins](book-notes/good-to-great-jim-collins.md)
-  * [Favorite Quotes](book-notes/favorite-quotes.md)
   * [Kohinoor: The Story of the World’s Most Infamous Diamond](book-notes/kohinoor-the-story-of-the-worlds-most-infamous-diamond.md)
   * [My Life in Full: Work, Family, and Our Future](book-notes/my-life-in-full-work-family-and-our-future.md)
 * [Programming](programming/README.md)

@@ -8,4 +8,6 @@ Hi there!
 
 Somehow you have landed on my personal wiki!
 
-This is a collection of my personal notes. Its content is solely my personal views, not those of my employer.
+This is a collection of my notes on software engineering and leadership content, with original source credited wherever applicable.&#x20;
+
+Note: I refrain from expressing opinions here and prefer to keep it as a learning diary. If there are any occasional personal opinions here, those are mine and not of my employer.
