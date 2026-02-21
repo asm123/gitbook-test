@@ -52,5 +52,6 @@
   * [The hardest working font in Manhattan](linkblog/the-hardest-working-font-in-manhattan.md)
   * [The Neuroscience of Confidence | Ian Robertson (Podcast)](linkblog/the-neuroscience-of-confidence-or-ian-robertson-podcast.md)
   * [What Did Ada Lovelace's Program Actually Do?](linkblog/what-did-ada-lovelaces-program-actually-do.md)
+  * ["Made in EU" - it was harder than I thought.](linkblog/made-in-eu-it-was-harder-than-i-thought..md)
 * [Misc](misc/README.md)
   * [Large number names](misc/large-number-names.md)
