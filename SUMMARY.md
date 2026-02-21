@@ -21,6 +21,7 @@
   * [JioCinema - IPL Live Streaming](system-design/jiocinema-ipl-live-streaming.md)
   * [Designing Data Intensive Applications](system-design/designing-data-intensive-applications/README.md)
     * [Chapter 1: Reliable, Scalable and Maintainable Applications](system-design/designing-data-intensive-applications/chapter-1-reliable-scalable-and-maintainable-applications.md)
+    * [Chapter 2: Data Models and Query Languages](system-design/designing-data-intensive-applications/chapter-2-data-models-and-query-languages.md)
     * [Chapter 3: Storage and Retrieval](system-design/designing-data-intensive-applications/chapter-3-storage-and-retrieval.md)
     * [Chapter 7: Transactions](system-design/designing-data-intensive-applications/chapter-7-transactions.md)
     * [Chapter 11: Stream Processing](system-design/designing-data-intensive-applications/chapter-11-stream-processing.md)
