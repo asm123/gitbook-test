@@ -1,6 +1,94 @@
 # Book notes: AI Engineering by Chip Huyen
 
-## Chapter 4: Evaluate AI Systems
+{% embed url="https://www.oreilly.com/library/view/ai-engineering/9781098166298/" %}
+
+## Chapter 1. Introduction to Building AI Applications with Foundation Models
+
+Basic unit of a language model is _token_. A token can be a character, word or part of a word.
+
+Vocabulary is a set of all tokens a model can work with.
+
+Why tokens instead of word or character?
+
+* Model can break words into meaningful components.
+* Fewer unique tokens than words -> smaller vocabulary size -> efficient model.
+* Model can process unknown words, e.g., model known "compute" and "ing", so can understand "computing" even if not seen before.
+
+#### Types of language models
+
+1. **Masked language models**
+   1. Fill in the blanks using context from both before and after the blank, i.e., the missing token. e.g., BERT
+   2. Used for non-generative tasks, understanding overall context. e.g., code debugging.
+2.  **Autoregressive language models**
+
+    1. Predict next token in sequence using only the preceding tokens. e.g., text generating models.
+
+
+
+LLMs can be trained using _self-supervision =_ Model can infer lables from training data, e.g., text sequences.
+
+LLMs are limited to text. _Foundation models_ can be built upon for different needs, e.g., multimodality. They are also _general-purpose_ and open-ended instead of being _task-specific_.
+
+General-purpose models can be tweaked to maximize performance for specific tasks with techniques such as: **prompt engineering, RAG, finetuning.**
+
+> AI Engineering = Process of building on top of foundation models.
+
+#### Planning AI applications
+
+1. Use case evaluation
+   1. Why do you want to build this app
+   2. Role of AI and humans in the app
+      1. Critical or complementary, reactive or proactive, dynamic or static, human-in-the-loop.
+   3. What moats do you have to defend your product, especially if foundation models can easily launch the same thing.
+2. Setting expectations
+   1. Figure out what success looks like
+   2. Track user feedback
+   3. Have clear expectations on application's usefulness thresholds (metrics)
+3. Milestone planning
+   1. Last mile challenge: 0 to 60 is easy. 60 to 100 is exceedingly challenging.
+4. Maintenance
+   1. Adapting to the pace of evolving AI landscape
+   2. Build vs buy and the validity of that decision over the course of time.
+   3. Regulations, IP.
+
+#### The AI engineering stack
+
+1. **Application development**: Providing a model with good prompts and necessary context.
+   1. AI interface - conversational, multimodal, AR/VR
+   2. Prompt engineering
+   3. Context construction
+   4. Evaluation
+2. **Model development**
+   1. Inference optimization - making models faster and cheaper
+   2. Dataset engineering
+   3. Modeling and training
+   4. Evaluation
+3. **Infrastructure**
+   1. Compute management
+   2. Data management
+   3. Serving
+   4. Monitoring
+
+#### AI engineering vs ML engineering
+
+> AI engineering is less about model development and more about adapting and evaluating models.
+
+Model adapation: prompt engineering, finetuning.
+
+_ML engineering workflow: Data -> Model -> Product_
+
+_AI engineering workflow: Product -> Data -> Model_
+
+
+
+* Pre-training: Training a model from scratch
+* Finetuning: Continuing to train a previously trained model - weights obtained from previous training process
+  * Done by application developers to adapt to their needs
+* Post-training: Similar to finetuning but done by model developers
+  * To make the model better at following instructions.
+  * To align the model with human preferences.
+
+## Chapter 4. Evaluate AI Systems
 
 ### Key themes
 
